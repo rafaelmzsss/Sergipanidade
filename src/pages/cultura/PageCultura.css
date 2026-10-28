@@ -1,0 +1,28 @@
+.page-cultura {
+  padding: 8px 10px 40px;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.page-cultura-titulo-busca {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.page-cultura-lista {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-cultura-sem-resultados {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  color: #666;
+  text-align: center;
+  padding: 48px 24px;
+}

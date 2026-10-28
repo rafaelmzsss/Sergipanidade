@@ -1,0 +1,53 @@
+.estrela-rating {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.estrela-wrapper {
+  position: relative;
+  width: 52px;
+  height: 52px;
+  flex-shrink: 0;
+}
+
+.estrela-interativa {
+  cursor: pointer;
+}
+
+.estrela-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+/* Estrela vazia: fica em cinza via filtro */
+.estrela-vazia {
+  position: absolute;
+  inset: 0;
+  filter: grayscale(100%) brightness(1.6) opacity(0.35);
+}
+
+/* Estrela cheia: só mostra a parte preenchida via largura */
+.estrela-clip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow: hidden;
+  transition: width 0.08s ease;
+}
+
+.estrela-cheia {
+  width: 52px; /* tamanho fixo para o clip funcionar */
+  height: 52px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.estrela-interativa:hover {
+  transform: scale(1.08);
+  transition: transform 0.1s ease;
+}

@@ -1,0 +1,29 @@
+.timeline-resize-handle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 12px;
+  height: 100%;
+  cursor: ew-resize;
+  z-index: 1;
+  touch-action: none;
+}
+
+.timeline-resize-handle::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 4px;
+  width: 3px;
+  height: 24px;
+  transform: translateY(-50%);
+  border-radius: 2px;
+  background-color: currentColor;
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+.timeline-resize-handle:hover::after,
+.timeline-resize-handle:active::after {
+  opacity: 0.7;
+}

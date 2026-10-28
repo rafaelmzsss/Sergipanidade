@@ -1,0 +1,44 @@
+{
+  "destaques": [
+    {
+      "id": 1,
+      "titulo": "Descubra o País do Forró: Roteiros que Pulsam a Cultura Sergipana",
+      "imagem": "/images/destaques/destaques-forro.jpg",
+      "cta": "Explorar Planos Culturais",
+      "link": "/planos?categoria=Cultura",
+      "prioridade": 1
+    },
+    {
+      "id": 2,
+      "titulo": "O Pôr do Sol mais Cinematográfico do Brasil espera por Você",
+      "imagem": "/images/destaques/destaques-por-do-sol.jpeg",
+      "cta": "Ver Roteiros de Lazer",
+      "link": "/planos?tag=pôr-do-sol",
+      "prioridade": 2
+    },
+    {
+      "id": 3,
+      "titulo": "Sabores de Sergipe: Do Caranguejo à Carne de Sol no Pirão",
+      "imagem": "/images/destaques/destaques-gastronomia.jpg",
+      "cta": "Roteiros Gastronômicos",
+      "link": "/planos?categoria=Gastronomia",
+      "prioridade": 3
+    },
+    {
+      "id": 4,
+      "titulo": "História e Tecnologia se Encontram no Museu da Gente Sergipana",
+      "imagem": "/images/destaques/destaques-museu.jpg",
+      "cta": "Conhecer Atividades",
+      "link": "/atividades/2",
+      "prioridade": 4
+    },
+    {
+      "id": 5,
+      "titulo": "Planeje seu Final de Semana Perfeito com Planos Feitos por usuários",
+      "imagem": "/images/destaques/destaques-familia.jpeg",
+      "cta": "Ver Todos os Planos",
+      "link": "/planos",
+      "prioridade": 5
+    }
+  ]
+}

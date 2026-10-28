@@ -1,0 +1,272 @@
+{
+  "activities": [
+    {
+      "id": 1,
+      "titulo": "Orla de Atalaia",
+      "categoria": "Turismo",
+      "slotInicio": null,
+      "slotFim": null,
+      "descricao": "A Orla de Atalaia é um dos principais cartões-postais de Aracaju, reunindo áreas de lazer, quadras esportivas, lagos artificiais, restaurantes e atrações turísticas. O espaço é bastante movimentado por turistas e moradores, principalmente durante a noite.",
+      "endereco": {
+        "rua": "Av. Santos Dumont",
+        "numero": "s/n",
+        "bairro": "Atalaia",
+        "cidade": "Aracaju",
+        "estado": "SE"
+      },
+      "nota": 4.8,
+      "horarios": { "abre": "00:00", "fecha": "23:59", "24h": true },
+      "thumbnail": "/images/atividades/orla1.jpg",
+      "imagens": ["/images/atividades/orla1.jpg", "/images/atividades/orla2.jpg", "/images/atividades/orla3.jpg"],
+      "tags": ["praia", "família", "ao ar livre", "fotografia", "vida noturna", "turismo", "orla", "caminhada", "lazer", "restaurantes"],
+      "destaque": true
+    },
+    {
+      "id": 2,
+      "titulo": "Museu da Gente Sergipana",
+      "categoria": "Cultura",
+      "slotInicio": null,
+      "slotFim": null,
+      "descricao": "O Museu da Gente Sergipana Governador Marcelo Déda, inaugurado em 2011 no histórico prédio do antigo Ateneu Sergipano, representa um marco de vanguarda na preservação da identidade do estado. Sendo o primeiro museu totalmente interativo das regiões Norte e Nordeste, o espaço utiliza recursos tecnológicos de última geração para mapear, salvaguardar e expor o patrimônio imaterial sergipano de forma estritamente imersiva. Ao percorrer suas instalações multimídia, o visitante é convidado a interagir diretamente com os dialetos locais, a culinária tradicional, as festas populares e a rica fauna regional, transformando o aprendizado histórico em uma experiência sensorial e lúdica única. Além de seu acervo tecnológico permanente, o museum atua ativamente como um polo irradiador de arte contemporânea, abrigando exposições temporárias, oficinas educativas, apresentações teatrais e feiras de artesanato que valorizam o produtor local. A arquitetura restaurada do início do século XX contrasta perfeitamente com a modernidade interna, criando um diálogo enriquecedor entre o passado e o futuro de Sergipe. É um ponto de parada obrigatório para pesquisadores, estudantes e entusiastas que buscam compreender a fundo a complexa e fascinante alma do povo sergipano.",
+      "endereco": {
+        "rua": "Av. Ivo do Prado",
+        "numero": "398",
+        "bairro": "Centro",
+        "cidade": "Aracaju",
+        "estado": "SE"
+      },
+      "nota": 4.9,
+      "horarios": { "abre": "09:00", "fecha": "17:00", "24h": false },
+      "thumbnail": "/images/atividades/museu1.jpg",
+      "imagens": [
+        "/images/atividades/museu1.jpg",
+        "/images/atividades/museu2.jpg",
+        "/images/atividades/museu3.jpg"
+      ],
+      "tags": ["museu", "cultura", "história", "arte", "tecnologia", "interativo", "turismo", "educação", "família", "exposição"],
+      "destaque": true
+    },
+    {
+      "id": 3,
+      "titulo": "Oceanário de Aracaju",
+      "categoria": "Turismo",
+      "slotInicio": null,
+      "slotFim": null,
+      "descricao": "O Oceanário de Aracaju é um espaço educativo voltado para a preservação ambiental e a vida marinha. O local possui aquários com diversas espécies aquáticas, além de exposições interativas e atividades voltadas à conscientização ambiental.",
+      "endereco": {
+        "rua": "Av. Santos Dumont",
+        "numero": "s/n",
+        "bairro": "Atalaia",
+        "cidade": "Aracaju",
+        "estado": "SE"
+      },
+      "nota": 4.7,
+      "horarios": { "abre": "10:00", "fecha": "18:00", "24h": false },
+      "thumbnail": "/images/atividades/oceanario1.jpg",
+      "imagens": ["/images/atividades/oceanario1.jpg", "/images/atividades/oceanario2.jpg", "/images/atividades/oceanario3.jpg"],
+      "tags": ["oceanário", "vida marinha", "família", "educação", "turismo", "crianças", "aquário", "natureza", "animais", "exposição"],
+      "destaque": true
+    },
+    {
+      "id": 4,
+      "titulo": "Passarela do Caranguejo",
+      "categoria": "Gastronomia",
+      "slotInicio": null,
+      "slotFim": null,
+      "descricao": "A Passarela do Caranguejo é uma das áreas gastronômicas mais conhecidas de Aracaju, concentrando bares, restaurantes e espaços de música ao vivo. O local é famoso pela culinária regional e pela movimentação noturna.",
+      "endereco": {
+        "rua": "Av. Santos Dumont",
+        "numero": "s/n",
+        "bairro": "Atalaia",
+        "cidade": "Aracaju",
+        "estado": "SE"
+      },
+      "nota": 4.6,
+      "horarios": { "abre": "17:00", "fecha": "00:00", "24h": false },
+      "thumbnail": "/images/atividades/caranguejo1.jpg",
+      "imagens": ["/images/atividades/caranguejo1.jpg", "/images/atividades/caranguejo2.jpg", "/images/atividades/caranguejo3.jpg"],
+      "tags": ["gastronomia", "bares", "restaurantes", "vida noturna", "caranguejo", "música", "turismo", "culinária regional", "comida", "lazer"],
+      "destaque": false
+    },
+    {
+      "id": 5,
+      "titulo": "Mercado Municipal Antônio Franco",
+      "categoria": "Cultura",
+      "slotInicio": null,
+      "slotFim": null,
+      "descricao": "Fundado in 1926 e localizado no coração do centro histórico, o Mercado Municipal Antônio Franco é o mais antigo e tradicional complexo comercial planejado de Aracaju. O edifício carrega em suas linhas arquitetônicas neoclássicas os vestígios da Belle Époque sergipana e reflete a transição econômica e social da capital no início do século passado. Cruzar os seus portões de ferro é entrar em um universo pulsante de cores, texturas e sotaques que sintetizam a diversidade do estado, servindo como o principal termômetro da cultura popular local. Nos corredores simétricos do mercado, artesãos de diversas regiões de Sergipe expõem trabalhos minuciosos em renda de bilro, bordados recheliê, esculturas de cerâmica de Carrapicho e artigos utilitários de palha e couro legítimo. O espaço também é um santuário gastronômico para quem busca os autênticos sabores do Nordeste, abrigando desde bancas repletas de queijo de coalho, manteiga de garrafa e doces caseiros de caju, até restaurantes tradicionais no andar superior que servem a famosa carne de sol com pirão de leite. Mais do que um centro de compras, o Mercado Antônio Franco funciona como um espaço de convivência comunitária onde o passado mercantil se une à resistência das manifestações culturais espontâneas do povo.",
+      "endereco": {
+        "rua": "Praça Hilton Lopes",
+        "numero": "s/n",
+        "bairro": "Centro",
+        "cidade": "Aracaju",
+        "estado": "SE"
+      },
+      "nota": 4.5,
+      "horarios": { "abre": "07:00", "fecha": "17:00", "24h": false },
+      "thumbnail": "/images/atividades/mercado1.jpg",
+      "imagens": [
+        "/images/atividades/mercado1.jpg",
+        "/images/atividades/mercado2.jpg",
+        "/images/atividades/mercado3.jpg"
+      ],
+      "tags": ["mercado", "artesanato", "culinária", "comida típica", "turismo", "cultura", "centro histórico", "compras", "regional", "tradição"],
+      "destaque": false
+    },
+    {
+      "id": 6,
+      "titulo": "Parque da Sementeira",
+      "categoria": "Lazer",
+      "slotInicio": null,
+      "slotFim": null,
+      "descricao": "O Parque da Sementeira é uma das principais áreas verdes de Aracaju, oferecendo pistas para caminhada, ciclovias, lagos e espaços de convivência. O ambiente é bastante utilizado para atividades físicas e lazer ao ar livre.",
+      "endereco": {
+        "rua": "Av. Beira Mar",
+        "numero": "s/n",
+        "bairro": "Jardins",
+        "cidade": "Aracaju",
+        "estado": "SE"
+      },
+      "nota": 4.7,
+      "horarios": { "abre": "05:00", "fecha": "22:00", "24h": false },
+      "thumbnail": "/images/atividades/parque1.jpg",
+      "imagens": ["/images/atividades/parque1.jpg", "/images/atividades/parque2.jpg", "/images/atividades/parque3.jpg"],
+      "tags": ["parque", "natureza", "caminhada", "corrida", "bicicleta", "família", "lazer", "ao ar livre", "esporte", "piquenique"],
+      "destaque": true
+    },
+    {
+      "id": 7,
+      "titulo": "Croa do Goré",
+      "categoria": "Turismo",
+      "slotInicio": null,
+      "slotFim": null,
+      "descricao": "A Croa do Goré é uma charmosa ilha de areia localizada no Rio Vaza-Barris que só fica visível durante algumas horas do dia. O acesso é feito por catamarãs ou lanchas que partem da Orla do Pôr do Sol.",
+      "endereco": {
+        "rua": "Rodovia dos Náufragos - Mosqueiro (Ponto de Partida)",
+        "numero": "s/n",
+        "bairro": "Mosqueiro",
+        "cidade": "Aracaju",
+        "estado": "SE"
+      },
+      "nota": 4.9,
+      "horarios": { "abre": "09:00", "fecha": "17:00", "24h": false },
+      "thumbnail": "/images/atividades/croa1.jpg",
+      "imagens": ["/images/atividades/croa1.jpg", "/images/atividades/croa2.png", "/images/atividades/croa3.png"],
+      "tags": ["rio", "natureza", "passeio", "catamarã", "turismo", "ao ar livre", "sol"],
+      "destaque": true
+    },
+    {
+      "id": 8,
+      "titulo": "Colina de Santo Antônio",
+      "categoria": "Cultura",
+      "slotInicio": null,
+      "slotFim": null,
+      "descricao": "A Colina de Santo Antônio ocupa um lugar sagrado na cronologia urbana do estado por se configurar como o marco zero oficial da fundação de Aracaju, ocorrida em 17 de março de 1855. Foi exatamente no topo desta elevação topográfica que o engenheiro Sebastião Basílio Pirro projetou os primeiros traçados em tabuleiro de xadrez da nova capital, rompendo com os padrões coloniais de crescimento desordenado. A imponente Igreja de Santo Antônio, erguida no cume da colina, domina a paisagem e funciona há mais de um século como o epicentro das tradicionais festividades juninas do bairro, atraindo milhares de fiéis durante as celebrações do trezenário do santo casamenteiro. Além do indiscutível valor religioso e histórico-arquitetônico, a colina oferece um dos mirantes naturais mais deslumbrantes da região, proporcionando uma visão panorâmica e ininterrupta do estuário do Rio Sergipe, da Ilha dos Coqueiros e da malha urbana do centro da cidade. Visitar a colina ao fim de tarde permite ao usuário compreender visualmente a relação geográfica e estratégica que motivou a transferência da capital da antiga São Cristóvão para Aracaju, tornando-se um memorial a céu aberto sobre a resiliência e o planejamento que esculpiram a identidade da capital sergipana.",
+      "endereco": {
+        "rua": "Praça Getúlio Vargas",
+        "numero": "s/n",
+        "bairro": "Santo Antônio",
+        "cidade": "Aracaju",
+        "estado": "SE"
+      },
+      "nota": 4.6,
+      "horarios": { "abre": "08:00", "fecha": "18:00", "24h": false },
+      "thumbnail": "/images/atividades/colina1.png",
+      "imagens": [
+        "/images/atividades/colina1.png",
+        "/images/atividades/colina2.jpg",
+        "/images/atividades/colina3.jpg"
+      ],
+      "tags": ["história", "igreja", "mirante", "cultura", "centro histórico", "religião"],
+      "destaque": false
+    },
+    {
+      "id": 9,
+      "titulo": "Cariri",
+      "categoria": "Gastronomia",
+      "slotInicio": null,
+      "slotFim": null,
+      "descricao": "O Restaurante Cariri é um dos pontos gastronômicos e culturais mais icônicos da Passarela do Caranguejo, famoso por seus pratos típicos regionais, decoração que homenageia o sertão e sua tradicional pista de forró pé-de-serra.",
+      "endereco": {
+        "rua": "Av. Santos Dumont",
+        "numero": "1870",
+        "bairro": "Atalaia",
+        "cidade": "Aracaju",
+        "estado": "SE"
+      },
+      "nota": 4.7,
+      "horarios": { "abre": "11:30", "fecha": "02:00", "24h": false },
+      "thumbnail": "/images/atividades/cariri1.jpg",
+      "imagens": ["/images/atividades/cariri1.jpg", "/images/atividades/cariri2.jpg", "/images/atividades/cariri3.jpg"],
+      "tags": ["gastronomia", "forró", "nordeste", "culinária regional", "restaurantes", "vida noturna"],
+      "destaque": true
+    },
+    {
+      "id": 10,
+      "titulo": "Orla Pôr do Sol",
+      "categoria": "Lazer",
+      "slotInicio": null,
+      "slotFim": null,
+      "descricao": "Localizada na beira do Rio Vaza-Barris, a Orla Pôr do Sol Cleomar Brandi é um ponto de encontro famoso pelo pôr do sol cinematográfico. Possui um píer de madeira estendido, ciclovia, quiosques e apresentações culturais aos finais de semana.",
+      "endereco": {
+        "rua": "Av. Melício Machado",
+        "numero": "s/n",
+        "bairro": "Mosqueiro",
+        "cidade": "Aracaju",
+        "estado": "SE"
+      },
+      "nota": 4.8,
+      "horarios": { "abre": "00:00", "fecha": "23:59", "24h": true },
+      "thumbnail": "/images/atividades/pordosol1.jpg",
+      "imagens": ["/images/atividades/pordosol1.jpg", "/images/atividades/pordosol2.jpg", "/images/atividades/pordosol3.jpg"],
+      "tags": ["pôr do sol", "rio", "lazer", "ao ar livre", "fotografia", "caminhada", "calmante"],
+      "destaque": true
+    },
+    {
+      "id": 11,
+      "titulo": "Parque dos Falcões",
+      "categoria": "Turismo",
+      "slotInicio": null,
+      "slotFim": null,
+      "descricao": "Localizado na Serra de Itabaiana, o Parque dos Falcões é o único centro de criação, preservação e reabilitação de aves de rapina da América do Sul autorizado pelo IBAMA. Um passeio ecológico único e educativo focado na preservação.",
+      "endereco": {
+        "rua": "BR-235, Km 43",
+        "numero": "s/n",
+        "bairro": "Zona Rural",
+        "cidade": "Itabaiana",
+        "estado": "SE"
+      },
+      "nota": 4.9,
+      "horarios": { "abre": "09:00", "fecha": "16:00", "24h": false },
+      "thumbnail": "/images/atividades/falcoes1.jpg",
+      "imagens": ["/images/atividades/falcoes1.jpg", "/images/atividades/falcoes2.jpg", "/images/atividades/falcoes2.jpg"],
+      "tags": ["natureza", "aves", "ecoturismo", "animais", "preservação", "turismo", "aventura"],
+      "destaque": false
+    },
+    {
+      "id": 12,
+      "titulo": "Largo da Gente Sergipana",
+      "categoria": "Cultura",
+      "slotInicio": null,
+      "slotFim": null,
+      "descricao": "Inaugurado em 2018 às margens do majestoso Rio Sergipe, o Largo da Gente Sergipana é um monumento artístico a céu aberto concebido para homenagear e dar visibilidade aos folguedos e manifestações folclóricas que moldam o caldeirão cultural do estado. A instalação artística é composta por oito esculturas monumentais flutuantes com mais de sete metros de altura, assinadas pelos renomados artistas plásticos Félix Sampaio e Tatti Moreno. Cada uma das estátuas antropomórficas retrata com impressionante riqueza de detalhes os personagens icônicos das danças e celebrações tradicionais da região: o Lambe-Sujo e Caboclinhos, o Cacumbi, a Taieira, o Reisado, o Parafuso, os Cheganças e os Bacamarteiros, além de uma escultura central dedicada ao emblemático São Gonçalo do Amarante. O monumento cria um impacto visual cinético impressionante, onde as figuras parecem dançar sobre o leito do rio de acordo com o movimento das marés e a variação da luz solar ao longo do dia. O espaço conta ainda com um píer integrado e uma área de passeio público amplamente frequentada por pedestres e ciclistas, consolidando-se como um dos principais cartões-postais fotográficos da cidade e um ponto crucial de conscientização e orgulho da rica herança ancestral do povo sergipano.",
+      "endereco": {
+        "rua": "Av. Ivo do Prado",
+        "numero": "s/n",
+        "bairro": "Centro",
+        "cidade": "Aracaju",
+        "estado": "SE"
+      },
+      "nota": 4.8,
+      "horarios": { "abre": "00:00", "fecha": "23:59", "24h": true },
+      "thumbnail": "/images/atividades/largo1.jpg",
+      "imagens": [
+        "/images/atividades/largo1.jpg",
+        "/images/atividades/largo2.jpg",
+        "/images/atividades/largo3.jpg"
+      ],
+      "tags": ["cultura", "monumento", "folclore", "arte", "rio sergipe", "fotografia", "ao ar livre"],
+      "destaque": true
+    }
+  ]
+}

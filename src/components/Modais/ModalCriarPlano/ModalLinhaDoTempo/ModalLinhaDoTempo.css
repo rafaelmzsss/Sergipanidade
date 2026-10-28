@@ -1,0 +1,318 @@
+.overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding: 24px 16px;
+    overflow-y: auto;
+
+    background: rgba(0, 0, 0, 0.55);
+    backdrop-filter: blur(2px);
+}
+
+.modal {
+    width: min(1243px, 100%);
+    max-height: calc(100vh - 48px);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    z-index: 1;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.modal .tb-root {
+    flex-shrink: 0;
+    position: relative;
+    z-index: 5;
+}
+
+.modal-scroll {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.drag-overlay-preview {
+    cursor: grabbing;
+    opacity: 0.92;
+    transform: scale(0.95);
+    filter: drop-shadow(0 10px 28px rgba(0, 0, 0, 0.35));
+}
+
+.drag-overlay-preview .card {
+    width: 175px;
+    max-width: 175px;
+}
+
+.linha_do_tempo {
+    background-color: #F5F5F5;
+    height: 255px;
+    border: 0.5px solid black;
+    border-bottom: none;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Container da Scrollbar Superior */
+.scroll_topo_sync {
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 12px;
+    /* Espaço para a barra aparecer */
+    background: #eee;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* Customização da Scrollbar Superior */
+.scroll_topo_sync::-webkit-scrollbar {
+    height: 8px;
+}
+
+.scroll_topo_sync::-webkit-scrollbar-track {
+    background: #F5F5F5;
+}
+
+.scroll_topo_sync::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 10px;
+}
+
+/* Wrapper do Conteúdo Real */
+.scroll_wrapper_principal {
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto;
+    /* Mantém o scroll habilitado para o JS ler, mas vamos esconder a barra */
+    flex-grow: 1;
+}
+
+/* Esconde a barra de scroll de baixo para não ficar duplicado */
+.scroll_wrapper_principal::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll_wrapper_principal {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+/* --- HORÁRIOS --- */
+.horarios {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    background-color: #F5F5F5;
+    flex-shrink: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.horario-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    height: 100%;
+    position: relative;
+    color: #444;
+    letter-spacing: 0.3px;
+}
+
+.horario-label::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 8px;
+    bottom: 8px;
+    width: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* --- SOCKET / ÁREA DOS CARDS --- */
+.socket-container {
+    position: relative;
+    background-color: #FAFAFA;
+}
+
+/* --- SLOTS DA TIMELINE --- */
+.timeline-slot {
+    border-right: 1px solid rgba(0, 0, 0, 0.06);
+    box-sizing: border-box;
+    transition: background-color 0.15s ease;
+}
+
+.timeline-slot:first-child {
+    border-left: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+/* --- BOTÃO DE REMOVER ("X") --- */
+.btn-remover {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    z-index: 30;
+
+    width: 18px;
+    height: 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    color: #fff;
+
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1;
+
+    cursor: pointer;
+
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    transition: all 0.2s ease;
+    opacity: 0;
+}
+
+/* Aparece no hover do card pai */
+.draggable-card-wrapper:hover .btn-remover {
+    opacity: 1;
+}
+
+.btn-remover:hover {
+    background: rgba(220, 38, 38, 0.85);
+    transform: scale(1.2);
+    box-shadow: 0 2px 8px rgba(220, 38, 38, 0.4);
+}
+
+.btn-remover:active {
+    transform: scale(0.9);
+}
+
+/* --- LIXEIRA DINÂMICA --- */
+.trash-zone {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    border-radius: 15px;
+    transition: background 0.3s ease;
+
+}
+
+.trash-zone--hover {
+    background: rgba(83, 83, 83, 0.2);
+}
+
+.trash-zone-icon {
+    font-size: 46px;
+    color: #999;
+    opacity: 0.55;
+    transition: all 0.3s ease;
+}
+
+.trash-zone--hover .trash-zone-icon {
+    color: #000000;
+    opacity: 0.85;
+    transform: scale(1.12);
+}
+
+/* --- POSICIONAMENTO DO BOTÃO "CRIAR PLANO" --- */
+.footer-actions {
+    position: absolute;
+    bottom: 280px;
+    /* altura da parte_inferior */
+    left: 50%;
+    transform: translate(-50%, 50%);
+    z-index: 15;
+    pointer-events: auto;
+}
+
+/* POSICIONAMENTO DA BARRA DE BOTÕES (legado) */
+.pesquisa_e_criar {
+    position: absolute;
+    top: 255px;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding: 0 40px;
+    z-index: 20;
+    pointer-events: none;
+}
+
+.pesquisa_e_criar > * {
+    pointer-events: auto;
+}
+
+.parte_inferior_wrapper {
+    background-color: white;
+    border: 0.5px solid black;
+    height: auto;
+    min-height: 320px;
+    padding-top: 45px; /* space for the absolute search bar */
+    display: flex;
+    flex-direction: column;
+}
+
+.carrossel-wrapper {
+    padding: 0 45px 20px 45px;
+}
+
+.lixeira-container {
+    padding: 30px;
+    flex-grow: 1;
+    display: flex;
+}
+
+.titulo_populares {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.titulo_populares h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    color: #111;
+}
+
+.icone_populares {
+    font-size: 18px;
+    color: #111;
+}
+
+.parte_inferior .card {
+    width: 175px;
+    max-width: 175px;
+    flex-shrink: 0;
+}
+
+.socket {
+    flex-grow: 1;
+    min-height: 205px;
+    /* Importante: Sem overflow hidden aqui para não quebrar o Drag and Drop visualmente */
+}

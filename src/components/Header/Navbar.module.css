@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 24px;
+  background: #ffffff;
+  font-family: 'Inter', sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-sizing: border-box;
+}
+
+.logo {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.tabs {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.tabBtn {
+  display: flex;
+  align-items: center;
+  padding: 6px 14px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: #888;
+  border-radius: 6px;
+  transition: color 0.18s;
+  white-space: nowrap;
+  position: relative;
+  gap: 5px;
+}
+
+.tabBtn:hover { color: #222; }
+
+.tabBtn.active { color: #111; font-weight: 600; }
+
+
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.cadastre {
+  font-family: 'Inter', sans-serif;
+  font-size: 13.5px;
+  font-weight: 400;
+  color: #444;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  padding: 0;
+  transition: color 0.15s;
+}
+
+.cadastre:hover { color: #d32f2f; }
+
+.userBtn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1.5px solid #ccc;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.15s;
+  flex-shrink: 0;
+}
+
+.userBtn:hover { border-color: #d32f2f; }
+
+.lantejoula {
+  width: 32px;
+  height: 32px;
+  margin-right: 6px;
+  object-fit: contain;
+}

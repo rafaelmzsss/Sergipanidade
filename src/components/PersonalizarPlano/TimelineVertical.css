@@ -1,0 +1,122 @@
+.tv-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  width: 100%;
+}
+
+.tv-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  color: #aaa;
+  font-size: 13px;
+  gap: 4px;
+  text-align: center;
+}
+
+/* Linha de horário */
+.tv-hora-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 0 8px;
+}
+
+.tv-hora-label {
+  font-size: 12px;
+  color: #888;
+  white-space: nowrap;
+  font-family: "Inter", sans-serif;
+}
+
+.tv-linha {
+  flex: 1;
+  height: 1px;
+  background-color: #d9d9d9;
+}
+
+.tv-hora-final {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* Card da atividade */
+.tv-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin-bottom: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.tv-card-logo {
+  width: 56px;
+  height: 56px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #f0f0f0;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tv-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tv-card-logo-placeholder {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #e8e8e8, #d0d0d0);
+}
+
+.tv-card-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.tv-card-titulo {
+  font-size: 14px;
+  font-weight: 600;
+  color: #222;
+  font-family: "Inter", sans-serif;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tv-card-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.tv-card-dur {
+  font-size: 13px;
+  color: #444;
+  font-family: "Inter", sans-serif;
+}
+
+.tv-saber-mais {
+  font-size: 12px;
+  color: #888;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.tv-saber-mais:hover {
+  color: #333;
+}

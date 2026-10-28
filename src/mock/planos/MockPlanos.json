@@ -1,0 +1,153 @@
+{
+  "planos": [
+    {
+      "id": 1,
+      "titulo": "Clube do Livro e Manhã na Atalaia",
+      "descricao": "Uma experiência pensada para desacelerar e valorizar o tempo com boas companhias. A proposta é criar um momento leve de conexão e troca de ideias.",
+      "horarioDoDia": "Manhã",
+      "duracao": "4h",
+      "pessoas": "Família",
+      "categorias": ["Turismo", "Praia"],
+      "tags": ["leitura", "conexão", "lazer", "presença", "calmante"],
+      "thumbnail": "/images/planos/clube-do-livro.jpg",
+      "atividadesTimeline": [
+        { "atividadeId": 1, "tituloResumido": "Leitura na Orla", "slotInicio": "08:00", "slotFim": "10:00", "comentarioAutor": "Bancos perto do lago são os melhores.", "avaliacaoAutor": 5 },
+        { "atividadeId": 3, "tituloResumido": "Passeio no Oceanário", "slotInicio": "10:30", "slotFim": "12:00", "comentarioAutor": "Perfeito para fugir do sol forte das 11h.", "avaliacaoAutor": 4 }
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "Imersão no Centro Histórico",
+      "descricao": "Mergulho profundo nas raízes de Sergipe, visitando museus e mercados tradicionais.",
+      "horarioDoDia": "Dia Inteiro",
+      "duracao": "6h",
+      "pessoas": "Amigos",
+      "categorias": ["Cultura", "História"],
+      "tags": ["educativo", "arquitetura", "centro"],
+      "thumbnail": "/images/planos/centro-historico.jpg",
+      "atividadesTimeline": [
+        { "atividadeId": 2, "tituloResumido": "Museu da Gente", "slotInicio": "09:30", "slotFim": "12:00", "comentarioAutor": "Incrível! O espelho interativo é nota 10.", "avaliacaoAutor": 5 },
+        { "atividadeId": 5, "tituloResumido": "Almoço no Mercado", "slotInicio": "12:15", "slotFim": "14:00", "comentarioAutor": "Carne de sol com pirão obrigatória.", "avaliacaoAutor": 4 },
+        { "atividadeId": 12, "tituloResumido": "Largo da Gente", "slotInicio": "14:15", "slotFim": "15:30", "comentarioAutor": "Fotos lindas com as estátuas no rio.", "avaliacaoAutor": 5 }
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "Noite de Forró e Gastronomia",
+      "descricao": "O roteiro clássico para quem quer conhecer a fama de Aracaju como o 'País do Forró'.",
+      "horarioDoDia": "Noite",
+      "duracao": "5h",
+      "pessoas": "Casal",
+      "categorias": ["Gastronomia", "Lazer"],
+      "tags": ["musica", "noite", "regional", "dança"],
+      "thumbnail": "/images/planos/noite-forro.jpg",
+      "atividadesTimeline": [
+        { "atividadeId": 4, "tituloResumido": "Jantar na Passarela", "slotInicio": "18:30", "slotFim": "20:30", "comentarioAutor": "Caranguejo fresco e música ao vivo.", "avaliacaoAutor": 5 },
+        { "atividadeId": 9, "tituloResumido": "Dança no Cariri", "slotInicio": "21:00", "slotFim": "23:30", "comentarioAutor": "O melhor pé-de-serra da cidade.", "avaliacaoAutor": 5 }
+      ]
+    },
+    {
+      "id": 4,
+      "titulo": "Domingo de Piquenique e Natureza",
+      "descricao": "Dia de relaxar sob as árvores e aproveitar o ar livre com a família.",
+      "horarioDoDia": "Manhã",
+      "duracao": "3h",
+      "pessoas": "Família",
+      "categorias": ["Lazer"],
+      "tags": ["natureza", "piquenique", "crianças", "parque"],
+      "thumbnail": "/images/planos/domingo-parque.jpg",
+      "atividadesTimeline": [
+        { "atividadeId": 6, "tituloResumido": "Manhã na Sementeira", "slotInicio": "08:00", "slotFim": "11:00", "comentarioAutor": "Leve repelente e muita água. As sombras são ótimas.", "avaliacaoAutor": 4 }
+      ]
+    },
+    {
+      "id": 5,
+      "titulo": "Aventura na Serra",
+      "descricao": "Um plano fora da capital para quem ama contato direto com animais e preservação.",
+      "horarioDoDia": "Dia Inteiro",
+      "duracao": "7h",
+      "pessoas": "Amigos",
+      "categorias": ["Turismo", "Lazer"],
+      "tags": ["animais", "ecoturismo", "aventura"],
+      "thumbnail": "/images/planos/aventura-serra.jpg",
+      "atividadesTimeline": [
+        { "atividadeId": 11, "tituloResumido": "Parque dos Falcões", "slotInicio": "09:00", "slotFim": "13:00", "comentarioAutor": "Experiência única segurar um falcão. Vale a viagem!", "avaliacaoAutor": 5 }
+      ]
+    },
+    {
+      "id": 6,
+      "titulo": "Pôr do Sol Mágico no Rio",
+      "descricao": "Um roteiro focado em contemplação e as melhores vistas fluviais de Aracaju.",
+      "horarioDoDia": "Tarde",
+      "duracao": "4h",
+      "pessoas": "Casal",
+      "categorias": ["Turismo", "Lazer"],
+      "tags": ["fotografia", "rio", "romântico"],
+      "thumbnail": "/images/planos/magico-rio.jpg",
+      "atividadesTimeline": [
+        { "atividadeId": 7, "tituloResumido": "Ilha Croa do Goré", "slotInicio": "13:00", "slotFim": "16:30", "comentarioAutor": "O banho de rio é muito relaxante.", "avaliacaoAutor": 4 },
+        { "atividadeId": 10, "tituloResumido": "Orla Pôr do Sol", "slotInicio": "17:00", "slotFim": "18:30", "comentarioAutor": "Sem dúvida o pôr do sol mais bonito que já vi.", "avaliacaoAutor": 5 }
+      ]
+    },
+    {
+      "id": 7,
+      "titulo": "Circuito Histórico-Religioso",
+      "descricao": "Conheça o marco zero da cidade e a arquitetura das primeiras igrejas.",
+      "horarioDoDia": "Manhã",
+      "duracao": "3h",
+      "pessoas": "Família",
+      "categorias": ["Cultura", "História"],
+      "tags": ["religião", "história", "mirante"],
+      "thumbnail": "/images/planos/circuito-religioso.jpg",
+      "atividadesTimeline": [
+        { "atividadeId": 8, "tituloResumido": "Colina de Sto Antônio", "slotInicio": "08:30", "slotFim": "10:00", "comentarioAutor": "A vista panorâmica da cidade é de tirar o fôlego.", "avaliacaoAutor": 4 },
+        { "atividadeId": 5, "tituloResumido": "Compras no Mercado", "slotInicio": "10:30", "slotFim": "12:00", "comentarioAutor": "Bom para comprar lembrancinhas de barro.", "avaliacaoAutor": 3 }
+      ]
+    },
+    {
+      "id": 8,
+      "titulo": "Saúde e Bem-estar na Atalaia",
+      "descricao": "Para quem não abre mão de se exercitar mesmo nas férias.",
+      "horarioDoDia": "Manhã",
+      "duracao": "2h",
+      "pessoas": "Individual",
+      "categorias": ["Lazer"],
+      "tags": ["esporte", "saúde", "caminhada"],
+      "thumbnail": "/images/planos/saude-atalaia.jpg",
+      "atividadesTimeline": [
+        { "atividadeId": 1, "tituloResumido": "Corrida na Orla", "slotInicio": "06:00", "slotFim": "07:30", "comentarioAutor": "Pista de cooper excelente e segura.", "avaliacaoAutor": 5 }
+      ]
+    },
+    {
+      "id": 9,
+      "titulo": "Tour Gastronômico do Centro",
+      "descricao": "Focado inteiramente em provar os sabores mais tradicionais e rústicos da cidade.",
+      "horarioDoDia": "Tarde",
+      "duracao": "3h",
+      "pessoas": "Amigos",
+      "categorias": ["Gastronomia"],
+      "tags": ["comida", "regional", "degustação"],
+      "thumbnail": "/images/planos/gastronomia-centro.png",
+      "atividadesTimeline": [
+        { "atividadeId": 5, "tituloResumido": "Petiscos no Mercado", "slotInicio": "11:00", "slotFim": "13:00", "comentarioAutor": "Prove o queijo de coalho com mel de engenho.", "avaliacaoAutor": 5 },
+        { "atividadeId": 2, "tituloResumido": "Café no Museu", "slotInicio": "14:00", "slotFim": "15:00", "comentarioAutor": "O café do museu é charmoso e delicioso.", "avaliacaoAutor": 4 }
+      ]
+    },
+    {
+      "id": 10,
+      "titulo": "Sábado Cultural Completo",
+      "descricao": "Um dia inteiro dedicado a consumir a arte e o folclore sergipano.",
+      "horarioDoDia": "Dia Inteiro",
+      "duracao": "8h",
+      "pessoas": "Amigos",
+      "categorias": ["Cultura"],
+      "tags": ["arte", "folclore", "museu", "rio"],
+      "thumbnail": "/images/planos/sabado-cultural.jpg",
+      "atividadesTimeline": [
+        { "atividadeId": 2, "tituloResumido": "Museu Interativo", "slotInicio": "10:00", "slotFim": "12:30", "comentarioAutor": "Reserve tempo para a sala dos espelhos.", "avaliacaoAutor": 5 },
+        { "atividadeId": 12, "tituloResumido": "Largo da Gente", "slotInicio": "14:00", "slotFim": "15:30", "comentarioAutor": "Ótimo para entender os figurinos das festas.", "avaliacaoAutor": 4 },
+        { "atividadeId": 8, "tituloResumido": "Pôr do sol na Colina", "slotInicio": "17:00", "slotFim": "18:00", "comentarioAutor": "Fechamento perfeito para um dia de história.", "avaliacaoAutor": 5 }
+      ]
+    }
+  ]
+}

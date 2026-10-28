@@ -1,0 +1,16 @@
+.page-planejar {
+  padding: 8px 23px 40px;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.planejar-sem-resultados {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  color: #666;
+  text-align: center;
+  padding: 48px 24px;
+}

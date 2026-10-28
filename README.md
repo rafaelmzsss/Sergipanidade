@@ -1,1 +1,1 @@
-# Sergipanidade
+Cards Destaque, atividades e planos em React.

@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&display=swap");
+
+.card-cultura {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 16px 8px;
+  font-family: "Inter", sans-serif;
+}
+
+.card-cultura-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.card-cultura-titulo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.card-cultura-titulo:hover {
+  opacity: 0.8;
+}
+
+.card-cultura-titulo h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #111827;
+}
+
+.card-cultura-titulo svg {
+  color: #1f2937;
+}
+
+.card-cultura-nav {
+  display: flex;
+  gap: 8px;
+}
+
+.card-cultura-nav-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  border: 1px solid #d1d5db;
+  border-radius: 9999px;
+  background: transparent;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.card-cultura-nav-btn:hover {
+  background-color: #f3f4f6;
+}
+
+.card-cultura-nav-btn svg {
+  color: #4b5563;
+}
+
+.card-cultura-main {
+  position: relative;
+  width: 100%;
+  height: 320px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.card-cultura-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.card-cultura-main:hover .card-cultura-img {
+  transform: scale(1.05);
+}
+
+.card-cultura-gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.3) 50%,
+    transparent 100%
+  );
+  pointer-events: none;
+}
+
+.card-cultura-favorite {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.card-cultura-favorite-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+  transition: color 0.2s ease;
+}
+
+.card-cultura-favorite-btn:hover {
+  color: #f87171;
+}
+
+.card-cultura-favorite-btn--ativo {
+  color: #ef4444;
+}
+
+.card-cultura-favorite-btn--ativo svg {
+  fill: currentColor;
+}
+
+.card-cultura-info {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.card-cultura-info h3 {
+  margin: 0;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 0.025em;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.card-cultura-info p {
+  margin: 4px 0 0;
+  color: #e5e7eb;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.card-cultura-ler-mais {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 12px;
+}
+
+.card-cultura-ler-mais button {
+  padding: 0;
+  border: none;
+  background: transparent;
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 800;
+  color: #111827;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.card-cultura-ler-mais button:hover:not(:disabled) {
+  color: #4b5563;
+}
+
+.card-cultura-ler-mais button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Vista expandida (Ler mais) */
+.card-cultura--expandido {
+  padding: 16px 8px 8px;
+}
+
+.card-cultura-detalhe {
+  width: 100%;
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.card-cultura-detalhe-imagem {
+  position: relative;
+  width: 100%;
+  height: 320px;
+}
+
+.card-cultura-detalhe-imagem img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-cultura-detalhe-imagem .card-cultura-favorite-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.card-cultura-detalhe-conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 24px;
+}
+
+.card-cultura-detalhe-conteudo h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #111827;
+  line-height: 1.2;
+}
+
+.card-cultura-detalhe-categoria {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #6b7280;
+}
+
+.card-cultura-detalhe-descricao {
+  margin: 8px 0 0;
+  font-size: 0.9375rem;
+  line-height: 1.65;
+  color: #374151;
+  text-align: justify;
+  column-count: 3;
+  column-gap: 24px;
+}
+
+.card-cultura-detalhe-atividades {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 8px 24px 24px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.card-cultura-detalhe-atividades-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.card-cultura-detalhe-atividades-titulo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.card-cultura-detalhe-atividades-titulo h2 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #111827;
+}
+
+.card-cultura-detalhe-atividades-lista {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+.card-cultura-detalhe-atividades-lista::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .card-cultura-detalhe-descricao {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 640px) {
+  .card-cultura-detalhe-imagem {
+    height: 220px;
+  }
+
+  .card-cultura-detalhe-conteudo h1 {
+    font-size: 1.5rem;
+  }
+
+  .card-cultura-detalhe-descricao {
+    column-count: 1;
+  }
+}

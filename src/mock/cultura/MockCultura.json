@@ -1,0 +1,44 @@
+{
+  "cultura": [
+    {
+      "id": 1,
+      "title": "História de Aracaju",
+      "category": "História",
+      "image": "/images/cultura/historia-aracaju.jpg",
+      "atividadeIds": [2, 8, 5],
+      "description": "Fundada em 17 de março de 1855, Aracaju nasceu de um planejamento urbano estratégico, sendo uma das primeiras cidades capitais planejadas do Brasil. A decisão de transferir a sede administrativa de São Cristóvão para a foz do Rio Sergipe foi motivada pela necessidade de facilitar o escoamento da produção de açúcar através de um porto mais eficiente. O engenheiro Sebastião Basílio Pirro foi o responsável pelo traçado em xadrez que define o centro histórico até hoje, rompendo com a lógica colonial de ruas sinuosas. Ao longo das décadas, a cidade se expandiu das margens do rio em direção ao oceano, transformando manguezais em bairros pulsantes e modernos. Conhecer a história de Aracaju é mergulhar na evolução de uma capital que soube equilibrar o crescimento econômico com a preservação de suas raízes ribeirinhas. Cada praça do centro carrega memórias da belle époque sergipana e dos movimentos políticos que moldaram o estado. Hoje, Aracaju é um exemplo de hospitalidade e qualidade de vida, mantendo vivo o legado de sua fundação planejada enquanto abraça o futuro como um importante polo tecnológico e turístico do Nordeste brasileiro."
+    },
+    {
+      "id": 2,
+      "title": "Festas Juninas",
+      "category": "Tradição",
+      "image": "/images/cultura/festas-juninas.jpg",
+      "atividadeIds": [1, 9, 10],
+      "description": "As festas juninas em Sergipe não são apenas um evento, mas a maior expressão da identidade e do orgulho do povo local, rendendo ao estado o título de 'País do Forró'. Durante todo o mês de junho, Aracaju se transforma em um imenso arraial, onde o som da sanfona, da zabumba e do triângulo dita o ritmo da vida. O Forró Caju e a Vila do Forró na Orla de Atalaia são os epicentros dessa celebração, reunindo milhares de pessoas para dançar o autêntico forró pé-de-serra sob as bandeirolas coloridas. A tradição se estende para a culinária, com mesas fartas de canjica, pamonha, milho cozido e o famoso amendoim cozido, patrimônio imaterial de Sergipe. Além dos grandes shows, os grupos de quadrilha junina apresentam espetáculos de coreografia e figurino que narram histórias do sertão e da vida nordestina com uma energia contagiante. É um período de reencontro com as raízes, onde as famílias se reúnem em torno de fogueiras e a hospitalidade sergipana atinge seu ápice. Viver o São João em Aracaju é sentir o pulsar de uma cultura que se renova a cada geração sem perder a essência da tradição rural e religiosa que deu origem à festa."
+    },
+    {
+      "id": 3,
+      "title": "Culinária Sergipana",
+      "category": "Gastronomia",
+      "image": "/images/cultura/culinaria-sergipana.jpg",
+      "atividadeIds": [4, 5, 9],
+      "description": "A gastronomia de Sergipe é um mosaico de sabores que reflete a abundância de seus rios e do seu litoral, criando uma identidade culinária única no Nordeste. O grande protagonista é, sem dúvida, o caranguejo, servido tradicionalmente cozido em água e sal com um toque de ervas, transformando a refeição em um ritual de socialização na Passarela do Caranguejo. Outro ícone indispensável é a carne de sol, geralmente acompanhada de pirão de leite cremoso, macaxeira frita e feijão de corda, prato que simboliza a força do interior sergipano. Nos mercados, o aroma do peixe frito e da moqueca de camarão com leite de coco fresco convida os visitantes para uma experiência sensorial inesquecível. Para os amantes de doces, a castanha de caju e as compotas de frutas regionais, como o caju em calda, oferecem o encerramento perfeito para qualquer banquete. A culinária local também se destaca pela influência das marisqueiras, que extraem das marés o sururu e a ostra, bases para caldos revigorantes. Comer em Sergipe é mais do que se alimentar; é participar de uma herança cultural que valoriza os ingredientes frescos da terra e do mar, preparada com técnicas ancestrais que passam de mãe para filha há séculos."
+    },
+    {
+      "id": 4,
+      "title": "Música Nordestina",
+      "category": "Música",
+      "image": "/images/cultura/musica-nordestina.jpg",
+      "atividadeIds": [9, 1, 12],
+      "description": "A música em Sergipe é uma sinfonia que mistura o sagrado e o profano, com ritmos que variam do xote apaixonado ao som vibrante das bandas de pífano. O forró é a espinha dorsal da sonoridade local, imortalizado por mestres que transformaram o cotidiano do sertanejo em poesia cantada ao som do acordeon. No entanto, a riqueza musical vai muito além, incorporando elementos dos grupos folclóricos como o Reisado, a Taieira e o Cacumbi, cujos cantos e batidas de percussão narram a resistência e a fé do povo sergipano. Nas noites de Aracaju, é comum encontrar artistas contemporâneos que fundem a música regional com o pop e o rock, criando uma cena alternativa vibrante que respeita o passado enquanto inova. A música é o fio condutor das festas populares e está presente em cada esquina, seja nos ensaios das escolas de samba locais ou nas rodas de choro no centro da cidade. Sergipe também é berço de grandes compositores que levaram o nome do estado para o cenário nacional, destacando a sensibilidade e a inteligência da lírica nordestina. Ouvir a música de Sergipe é compreender a alma de um povo que faz da melodia um instrumento de celebração da vida e das dificuldades superadas com resiliência e alegria."
+    },
+    {
+      "id": 5,
+      "title": "Artesanato e Cultura",
+      "category": "Artesanato",
+      "image": "/images/cultura/artesanato-sergipe.jpg",
+      "atividadeIds": [5, 12, 2],
+      "description": "O artesanato sergipano é a materialização da paciência e do talento das mãos que moldam a identidade do estado através de fibras, barro e fios. As rendas de bilro e os bordados tipo Recheliê são verdadeiras obras de arte têxtil, produzidas principalmente por comunidades de rendeiras que preservam técnicas europeias adaptadas ao gosto e aos temas tropicais. Na cerâmica, as peças de Santana do São Francisco, antigamente chamada de Carrapicho, ganham destaque mundial pela delicadeza das esculturas que retratam figuras do folclore e do cotidiano ribeirinho. Outro material muito explorado é a palha de Ouricuri e o junco, que se transformam em cestos, chapéus e tapetes com tramas complexas e duradouras. No Mercado Antônio Franco, o visitante encontra o resumo dessa produção, onde a madeira esculpida em forma de carrancas e ex-votos conta histórias de fé e proteção nas águas do Velho Chico. O artesanato em Sergipe não é apenas um produto comercial, mas um meio de subsistência e resistência cultural para centenas de famílias que transformam matérias-primas simples em símbolos de beleza e tradição. Cada peça carrega a assinatura invisível de um povo que coloca amor e história em cada detalhe produzido manualmente."
+    }
+  ]
+}

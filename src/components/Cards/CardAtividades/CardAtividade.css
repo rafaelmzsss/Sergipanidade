@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap");
+
+.card {
+  width: 175px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 8px;
+}
+
+.card--interativo {
+  cursor: pointer;
+}
+
+.card-image-container {
+  position: relative;
+
+  width: 100%;
+  aspect-ratio: 1 / 1;
+
+  border-radius: 16px;
+  overflow: hidden;
+
+  background-color: #e0e0e0;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  transition:
+    transform 300ms ease-out,
+    filter 300ms ease-out;
+}
+
+.card-image-container:hover .card-image {
+  transform: scale(1.08);
+  filter: brightness(0.9);
+}
+
+.card-info {
+  padding: 4px;
+}
+
+.card-title {
+  font-family: "Inter", sans-serif;
+
+  margin: 0;
+
+  font-size: 14px;
+  font-weight: 800;
+
+  color: #111;
+}
+
+.card-location {
+  font-family: "Inter", sans-serif;
+
+  margin: 4px 0 0;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  color: #666;
+}

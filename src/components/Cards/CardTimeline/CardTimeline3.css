@@ -1,0 +1,109 @@
+.cardTimeline3 {
+  position: relative;
+  height: 110px;
+
+  border: 0.5px solid #000000;
+  border-radius: 16px;
+
+  background: #f5f5f5;
+
+  display: flex;
+  align-items: center;
+
+  overflow: hidden;
+}
+
+.cardTimeline3 .timeline-resize-handle {
+  color: #000000;
+}
+
+.cardTimeline3-left {
+  width: 135px;
+  height: 100%;
+
+  border-right: 0.5px solid #000000;
+}
+
+.cardTimeline3-content {
+  flex: 1;
+  height: 100%;
+
+  padding: 18px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.topContent {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.topContent span {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #555;
+}
+
+.cardTimeline3-content a {
+  align-self: flex-end;
+
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #666;
+
+  text-decoration: underline;
+}
+
+.cardTimeline3-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.cardTimeline-title {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  font-size: 13px;
+  font-weight: 800;
+  color: #000000;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cardTimeline-location {
+  font-family: "Inter", sans-serif;
+  margin: 4px 0 0;
+  font-size: 13px;
+  font-weight: 500;
+  color: #666;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-timeline-img-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cardTimeline3-row-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+}
+
+.cardTimeline3-row-bottom {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
